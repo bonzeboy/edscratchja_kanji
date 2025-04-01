@@ -5,11 +5,11 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blockly_compressed_vertical_czech.js"
+                "extensionPath": "/v3/blockly_compressed_vertical.js"
             }
         },
         "condition": {
-            "urlFilter": "js/blockly_compressed_vertical.js",
+            "urlFilter": "v3/blockly_compressed_vertical.js",
             "resourceTypes": [
                 "script"
             ]
@@ -21,11 +21,11 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blocks_compressed_vertical_czech.js"
+                "extensionPath": "/v3/blocks_compressed_vertical.js"
             }
         },
         "condition": {
-            "urlFilter": "js/blocks_compressed_vertical.js",
+            "urlFilter": "v3/blocks_compressed_vertical.js",
             "resourceTypes": [
                 "script"
             ]
@@ -37,43 +37,11 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blocks_compressed_vertical_czech_v3.js"
-            }
-        },
-        "condition": {
-            "urlFilter": "v3/blocks_compressed_vertical.js",
-            "resourceTypes": [
-                "script"
-            ]
-        }
-    },
-    {
-        "id": 4,
-        "priority": 1,
-        "action": {
-            "type": "redirect",
-            "redirect": {
-                "extensionPath": "/messages_czech_v3.js"
+                "extensionPath": "/v3/messages.js"
             }
         },
         "condition": {
             "urlFilter": "v3/msg/messages.js",
-            "resourceTypes": [
-                "script"
-            ]
-        }
-    },
-    {
-        "id": 5,
-        "priority": 1,
-        "action": {
-            "type": "redirect",
-            "redirect": {
-                "extensionPath": "/errorMessages_czech.js"
-            }
-        },
-        "condition": {
-            "urlFilter": "js/errorMessages.js",
             "resourceTypes": [
                 "script"
             ]
