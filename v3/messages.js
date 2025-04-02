@@ -34,20 +34,20 @@ goog.provide('Blockly.Msg.en');
 goog.require('Blockly.Msg');
 
 // Control blocks
-Blockly.Msg.CONTROL_FOREVER = 'forever';
-Blockly.Msg.CONTROL_REPEAT = 'repeat';
-Blockly.Msg.CONTROL_IF = 'if';
-Blockly.Msg.CONTROL_THAN = 'then';
-Blockly.Msg.CONTROL_ELSE = 'else';
+Blockly.Msg.CONTROL_FOREVER = 'ずっと';
+Blockly.Msg.CONTROL_REPEAT = '回繰り返す';
+Blockly.Msg.CONTROL_IF = 'もし';
+Blockly.Msg.CONTROL_THAN = 'なら';
+Blockly.Msg.CONTROL_ELSE = 'でなければ';
 Blockly.Msg.CONTROL_STOP = 'stop';
 Blockly.Msg.CONTROL_STOP_ALL = 'all';
 Blockly.Msg.CONTROL_STOP_THIS = 'this script';
 Blockly.Msg.CONTROL_STOP_OTHER = 'other scripts in sprite';
-Blockly.Msg.CONTROL_WAIT = 'wait';
-Blockly.Msg.CONTROL_WAIT_SEC = 'sec';
-Blockly.Msg.CONTROL_WAIT_MILLISECONDS = 'milliseconds';
-Blockly.Msg.CONTROL_WAITUNTIL = 'wait until';
-Blockly.Msg.CONTROL_REPEATUNTIL = 'repeat until';
+Blockly.Msg.CONTROL_WAIT = '待つ';
+Blockly.Msg.CONTROL_WAIT_SEC = '秒';
+Blockly.Msg.CONTROL_WAIT_MILLISECONDS = 'ミリ秒';
+Blockly.Msg.CONTROL_WAITUNTIL = 'まで待つ';
+Blockly.Msg.CONTROL_REPEATUNTIL = 'まで繰り返す';
 Blockly.Msg.CONTROL_WHILE = 'while %1';
 Blockly.Msg.CONTROL_FOREACH = 'for each %1 in %2';
 Blockly.Msg.CONTROL_STARTASCLONE = 'when I start as a clone';
@@ -60,16 +60,16 @@ Blockly.Msg.CONTROL_CLEARCOUNTER = 'clear counter';
 Blockly.Msg.CONTROL_ALLATONCE = 'all at once';
 
 // Data blocks
-Blockly.Msg.DATA_BUTTONCREATE = 'Make a variable';
-Blockly.Msg.DATA_BUTTONMANAGE = 'Manage variables';
+Blockly.Msg.DATA_BUTTONCREATE = '変数を作る';
+Blockly.Msg.DATA_BUTTONMANAGE = '変数を管理する';
 //Blockly.Msg.DATA_SETVARIABLETO = '';
-Blockly.Msg.DATA_SET = "set";
-Blockly.Msg.DATA_TO = "to";
-Blockly.Msg.DATA_INCVARIABLE = 'increment';
-Blockly.Msg.DATA_DECVARIABLE = 'decrement';
-Blockly.Msg.DATA_BITSHIFT = "bit shift";
-Blockly.Msg.DATA_BITSHIFTLEFT = 'left by';
-Blockly.Msg.DATA_BITSHIFTRIGHT = 'right by';
+Blockly.Msg.DATA_SET = "にする";
+Blockly.Msg.DATA_TO = "を";
+Blockly.Msg.DATA_INCVARIABLE = 'を1ずつ変える';
+Blockly.Msg.DATA_DECVARIABLE = 'を-1ずつ変える';
+Blockly.Msg.DATA_BITSHIFT = "ビットシフトする";
+Blockly.Msg.DATA_BITSHIFTLEFT = 'を左に';
+Blockly.Msg.DATA_BITSHIFTRIGHT = 'を右に';
 
 
 Blockly.Msg.DATA_CHANGEVARIABLEBY = 'change %1 by %2';
@@ -91,20 +91,20 @@ Blockly.Msg.DATA_INDEX_LAST = 'last';
 Blockly.Msg.DATA_INDEX_RANDOM = 'random';
 
 // Event blocks
-Blockly.Msg.EVENT_ANY_OBSTACLE = 'Any obstacle detected';
-Blockly.Msg.EVENT_OBSTACLE_AHEAD = 'Obstacle detected ahead';
-Blockly.Msg.EVENT_OBSTACLE_LEFT = 'Obstacle detected left';
-Blockly.Msg.EVENT_OBSTACLE_RIGHT = 'Obstacle detected right';
-Blockly.Msg.EVENT_CLAP = 'Clap detected';
-Blockly.Msg.EVENT_BUTTON_TRIANGLE = 'Triangle button pressed';
-Blockly.Msg.EVENT_BUTTON_ROUND = 'Round button pressed';
-Blockly.Msg.EVENT_LINE_REFLECTIVE = 'Line tracker on reflective surface';
-Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'Line tracker on non-reflective surface';
-Blockly.Msg.EVENT_LINE_CHANGE = 'Line tracker changes surface';
-Blockly.Msg.EVENT_MESSAGE = 'IR message received';
-Blockly.Msg.EVENT_REMOTE = 'Remote code received';
-Blockly.Msg.EVENT_DRIVE_STRAIN = 'Drive strained';
-Blockly.Msg.EVENT_START = 'Start';
+Blockly.Msg.EVENT_ANY_OBSTACLE = '何か障害物が検出されたとき';
+Blockly.Msg.EVENT_OBSTACLE_AHEAD = '前に障害物が検出されたとき';
+Blockly.Msg.EVENT_OBSTACLE_LEFT = '左に障害物が検出されたとき';
+Blockly.Msg.EVENT_OBSTACLE_RIGHT = '右に障害物が検出されたとき';
+Blockly.Msg.EVENT_CLAP = '拍手が検出されたとき';
+Blockly.Msg.EVENT_BUTTON_TRIANGLE = '▲三角ボタンが押されたとき';
+Blockly.Msg.EVENT_BUTTON_ROUND = '●丸ボタンが押されたとき';
+Blockly.Msg.EVENT_LINE_REFLECTIVE = 'ライン検出で反射面が検出されたとき';
+Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'ライン検出で非反射面が検出されたとき';
+Blockly.Msg.EVENT_LINE_CHANGE = 'ライン検出の検出状態が変化したとき';
+Blockly.Msg.EVENT_MESSAGE = '赤外線メッセージを受信したとき';
+Blockly.Msg.EVENT_REMOTE = 'リモコンコードを受信したとき';
+Blockly.Msg.EVENT_DRIVE_STRAIN = '動きの異常が検出されたとき';
+Blockly.Msg.EVENT_START = 'スタート';
 
 
 
@@ -117,18 +117,21 @@ Blockly.Msg.OPERATORS_ADD = '%1 + %2';
 Blockly.Msg.OPERATORS_SUBTRACT = '%1 - %2';
 Blockly.Msg.OPERATORS_MULTIPLY = '%1 * %2';
 Blockly.Msg.OPERATORS_DIVIDE = '%1 / %2';
-Blockly.Msg.OPERATORS_RANDOM = 'random number between';
+Blockly.Msg.OPERATORS_RANDOM_FROM = 'から';
+Blockly.Msg.OPERATORS_RANDOM_TO = 'までの乱数';
 Blockly.Msg.OPERATORS_LT = '%1 < %2';
 Blockly.Msg.OPERATORS_LT_EQUAL = '%1 <= %2';
 Blockly.Msg.OPERATORS_EQUALS = '%1 = %2';
 Blockly.Msg.OPERATORS_GT_EQUAL = '%1 >= %2';
 Blockly.Msg.OPERATORS_GT = '%1 > %2';
-Blockly.Msg.OPERATORS_AND = 'and';
-Blockly.Msg.OPERATORS_OR = 'or';
+Blockly.Msg.OPERATORS_AND = 'かつ';
+Blockly.Msg.OPERATORS_OR = 'または';
 Blockly.Msg.OPERATORS_NOT_EQUALS = '%1 != %2';
-Blockly.Msg.OPERATORS_NOT = 'not';
-Blockly.Msg.OPERATORS_ABS = 'abs';
-Blockly.Msg.OPERATORS_BETWEEN = 'is between';
+Blockly.Msg.OPERATORS_NOT = 'ではない';
+Blockly.Msg.OPERATORS_ABS = 'の絶対値';
+Blockly.Msg.OPERATORS_BETWEEN_IS = 'が';
+Blockly.Msg.OPERATORS_BETWEEN_FROM = 'から';
+Blockly.Msg.OPERATORS_BETWEEN_TO = 'までに含まれる';
 
 
 
@@ -137,116 +140,120 @@ Blockly.Msg.OPERATORS_BETWEEN = 'is between';
 Blockly.Msg.PROCEDURES_DEFINITION = 'define %1';
 
 // Sensing blocks
-Blockly.Msg.SENSING_TURN_LINE_TRACKING_LED = 'turn line tracking LED';
-Blockly.Msg.SENSING_TURN_OBSTACLE_BEAM = 'turn obstacle detection beam';
-Blockly.Msg.SENSING_CLEAR = 'clear';
-Blockly.Msg.SENSING_SENSOR = 'sensor data';
-Blockly.Msg.SENSING_CLAP_DETECTED = 'clap detected';
-Blockly.Msg.SENSING_BUTTON_PRESSED = 'button pressed';
-Blockly.Msg.SENSING_OBSTACLE = 'obstacle detected';
-Blockly.Msg.SENSING_LINE_TRACKER = 'line tracker on';
-Blockly.Msg.SENSING_LINE_SURFACE = "surface";
-Blockly.Msg.SENSING_REMOTE_NUM = 'received remote code';
-Blockly.Msg.SENSING_REMOTE_BOOL = 'remote code';
-Blockly.Msg.SENSING_REMOTE_RECEIVED = 'received';
-Blockly.Msg.SENSING_IR_MESSAGE_DETECTED = 'IR message detected';
-Blockly.Msg.SENSING_IR_MESSAGE = 'received IR message';
-Blockly.Msg.SENSING_LIGHT_LEVEL = 'light level of';
-Blockly.Msg.SENSING_LIGHT_SENSOR = 'sensor';
-Blockly.Msg.SENSING_DRIVE_STRAIN = 'drive strain detected';
+Blockly.Msg.SENSING_TURN_LINE_TRACKING_LED = 'ライン検出を';
+Blockly.Msg.SENSING_TURN_SET = 'にする';
+Blockly.Msg.SENSING_TURN_OBSTACLE_BEAM = '障害物検出を';
+Blockly.Msg.SENSING_SENSOR = 'のデータを';
+Blockly.Msg.SENSING_CLEAR = 'クリアする';
+Blockly.Msg.SENSING_CLAP_DETECTED = '拍手が検出された';
+Blockly.Msg.SENSING_BUTTON_PRESSED = 'が押された';
+Blockly.Msg.SENSING_OBSTACLE = '障害物が検出された';
+Blockly.Msg.SENSING_LINE_TRACKER = 'ライン検出で';
+Blockly.Msg.SENSING_LINE_SURFACE = "が検出された";
+Blockly.Msg.SENSING_REMOTE_NUM = '受信したリモコンコード';
+Blockly.Msg.SENSING_REMOTE_BOOL = 'リモコンコード';
+Blockly.Msg.SENSING_REMOTE_RECEIVED = 'を受信した';
+Blockly.Msg.SENSING_IR_MESSAGE_DETECTED = '赤外線メッセージを受信した';
+Blockly.Msg.SENSING_IR_MESSAGE = '受信した赤外線メッセージ';
+Blockly.Msg.SENSING_LIGHT_LEVEL = '';
+Blockly.Msg.SENSING_LIGHT_SENSOR = 'で検出された光量';
+Blockly.Msg.SENSING_DRIVE_STRAIN = '動きの異常が検出された';
 
-Blockly.Msg.SENSING_DROPDOWN_ON = "on";
-Blockly.Msg.SENSING_DROPDOWN_OFF = "off";
+Blockly.Msg.SENSING_DROPDOWN_ON = "ON";
+Blockly.Msg.SENSING_DROPDOWN_OFF = "OFF";
 
-Blockly.Msg.SENSING_CLEAR_DROPDOWN_CLAP = "clap detector";
-Blockly.Msg.SENSING_CLEAR_DROPDOWN_KEY = "keypad";
-Blockly.Msg.SENSING_CLEAR_DROPDOWN_OBS = "obstacle detector";
-Blockly.Msg.SENSING_CLEAR_DROPDOWN_REMOTE = "remote code";
-Blockly.Msg.SENSING_CLEAR_DROPDOWN_IR = "IR message";
+Blockly.Msg.SENSING_CLEAR_DROPDOWN_CLAP = "拍手検出";
+Blockly.Msg.SENSING_CLEAR_DROPDOWN_KEY = "ボタン";
+Blockly.Msg.SENSING_CLEAR_DROPDOWN_OBS = "障害物検出";
+Blockly.Msg.SENSING_CLEAR_DROPDOWN_REMOTE = "リモコンコード";
+Blockly.Msg.SENSING_CLEAR_DROPDOWN_IR = "赤外線メッセージ";
 
-Blockly.Msg.SENSING_KEY_DROPDOWN_ROUND = "round";
-Blockly.Msg.SENSING_KEY_DROPDOWN_TRIANGLE = "triangle";
+Blockly.Msg.SENSING_KEY_DROPDOWN_ROUND = "●丸ボタン";
+Blockly.Msg.SENSING_KEY_DROPDOWN_TRIANGLE = "▲三角ボタン";
 
-Blockly.Msg.SENSING_OBS_DROPDOWN_ANY = "anywhere";
-Blockly.Msg.SENSING_OBS_DROPDOWN_AHEAD = "ahead";
-Blockly.Msg.SENSING_OBS_DROPDOWN_LEFT = "left";
-Blockly.Msg.SENSING_OBS_DROPDOWN_RIGHT = "right";
+Blockly.Msg.SENSING_OBS_DROPDOWN_ANY = "何か";
+Blockly.Msg.SENSING_OBS_DROPDOWN_AHEAD = "前に";
+Blockly.Msg.SENSING_OBS_DROPDOWN_LEFT = "左に";
+Blockly.Msg.SENSING_OBS_DROPDOWN_RIGHT = "右に";
 
-Blockly.Msg.SENSING_LINE_DROPDOWN_WHITE = "reflective ";
-Blockly.Msg.SENSING_LINE_DROPDOWN_BLACK = "non-reflective";
+Blockly.Msg.SENSING_LINE_DROPDOWN_WHITE = "反射面";
+Blockly.Msg.SENSING_LINE_DROPDOWN_BLACK = "非反射面";
 
-Blockly.Msg.SENSING_LIGHT_DROPDOWN_LEFT = "left light";
-Blockly.Msg.SENSING_LIGHT_DROPDOWN_RIGHT = "right light";
-Blockly.Msg.SENSING_LIGHT_DROPDOWN_LINE = "line tracking";
+Blockly.Msg.SENSING_LIGHT_DROPDOWN_LEFT = "左の光センサ";
+Blockly.Msg.SENSING_LIGHT_DROPDOWN_RIGHT = "右の光センサ";
+Blockly.Msg.SENSING_LIGHT_DROPDOWN_LINE = "ライン検出";
 
-Blockly.Msg.COMMENT_USER_COMMENT = 'comment:';
+Blockly.Msg.COMMENT_USER_COMMENT = 'コメント:';
 
-Blockly.Msg.ADVANCED_USB_SEND_DATA = 'send';
-Blockly.Msg.ADVANCED_USB_SEND_VIA = 'via USB';
+Blockly.Msg.ADVANCED_USB_SEND_DATA = 'USBにデータ';
+Blockly.Msg.ADVANCED_USB_SEND_VIA = 'を送信する';
 Blockly.Msg.ADVANCED_USB_RECEIVED_DATA = 'data received from USB';
-Blockly.Msg.ADVANCED_USB_RECEIVED_DATA_VAR = 'wait for USB data and save to';
+Blockly.Msg.ADVANCED_USB_RECEIVED_DATA_VAR = 'USBから';
+Blockly.Msg.ADVANCED_USB_RECEIVED_DATA_VAR_TO = 'にデータを受信する';
 
 // Sound blocks
-Blockly.Msg.SOUND_BEEP = "beep";
-Blockly.Msg.SOUND_PLAY_NOTE = 'play a';
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_WHOLE = "whole";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_HALF = "half";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_QUARTER = "quarter";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_EIGHTH = "eighth";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_C = "C";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_B = "B";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_A = "A";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_G = "G";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_F = "F";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_E = "E";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_D = "D";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_MID_C = "middle C";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_LOW_B = "low B";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_REST = "rest";
+Blockly.Msg.SOUND_BEEP = "ビープ音を鳴らす";
+Blockly.Msg.SOUND_PLAY_NOTE = '鳴らす';
+Blockly.Msg.SOUND_PLAY_NOTE_ON = 'を';
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_WHOLE = "4拍";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_HALF = "2拍";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_QUARTER = "1拍";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_EIGHTH = "0.5拍";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_C = "C5（ド）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_B = "B4（シ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_A = "A4（ラ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_G = "G4（ソ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_F = "F4（ファ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_E = "E4（ミ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_D = "D4（レ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_MID_C = "C4（ド）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_LOW_B = "B3（シ）";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_REST = "休符";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_NORMAL = " - ";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_SHARP = "sharp";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_FLAT = "flat";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_SHARP = "シャープ";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_FLAT = "フラット";
 
-Blockly.Msg.SOUND_SET_TEMPO = "set music tempo to";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "very slow ";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "slow ";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "medium";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "fast";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "very fast";
+Blockly.Msg.SOUND_SET_TEMPO = "テンポを";
+Blockly.Msg.SOUND_SET_TEMPO_TO = "にする";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "とても遅い";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "遅い";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "中くらい";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "速い";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "とても速い";
 
-Blockly.Msg.SOUND_PLAY_IN_BACKGROUND = "play music in background";
+Blockly.Msg.SOUND_PLAY_IN_BACKGROUND = "バックグラウンドで音を鳴らす";
 
 
 // Category labels
 Blockly.Msg.CATEGORY_MOTION = 'Motion';
 
 Blockly.Msg.CATEGORY_LOOKS = 'Looks';
-Blockly.Msg.CATEGORY_SOUND = 'Sound'; //
-Blockly.Msg.CATEGORY_EVENTS = 'Events'; //
-Blockly.Msg.CATEGORY_CONTROL = 'Control'; //
-Blockly.Msg.CATEGORY_SENSING = 'Sensing'; //
-Blockly.Msg.CATEGORY_OPERATORS = 'Operators'; //
-Blockly.Msg.CATEGORY_VARIABLES = 'Variables'; //
-Blockly.Msg.CATEGORY_MYBLOCKS = 'Functions'; //
+Blockly.Msg.CATEGORY_SOUND = '音'; //
+Blockly.Msg.CATEGORY_EVENTS = 'イベント'; //
+Blockly.Msg.CATEGORY_CONTROL = '制御'; //
+Blockly.Msg.CATEGORY_SENSING = '調べる'; //
+Blockly.Msg.CATEGORY_OPERATORS = '演算'; //
+Blockly.Msg.CATEGORY_VARIABLES = '変数'; //
+Blockly.Msg.CATEGORY_MYBLOCKS = 'ブロック定義'; //
 
-Blockly.Msg.CATEGORY_DRIVE = 'Drive'; //
-Blockly.Msg.CATEGORY_COMMENT = 'Comment'; //
-Blockly.Msg.CATEGORY_LED = 'LEDs'; //
-Blockly.Msg.CATEGORY_ADVANCED = 'Advanced'; //
+Blockly.Msg.CATEGORY_DRIVE = '動き'; //
+Blockly.Msg.CATEGORY_COMMENT = 'コメント'; //
+Blockly.Msg.CATEGORY_LED = '光'; //
+Blockly.Msg.CATEGORY_ADVANCED = '高度な機能'; //
 
 // Context menus
-Blockly.Msg.DUPLICATE = 'Duplicate';
+Blockly.Msg.DUPLICATE = '複製';
 Blockly.Msg.DELETE = 'Delete';
 Blockly.Msg.ADD_COMMENT = 'Add Comment';
 Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-Blockly.Msg.DELETE_ALL_BLOCKS = 'Delete all %1 blocks?';
-Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
+Blockly.Msg.DELETE_BLOCK = 'ブロックを削除';
+Blockly.Msg.DELETE_X_BLOCKS = '%1 個のブロックを削除';
+Blockly.Msg.DELETE_ALL_BLOCKS = '%1 個のブロックをすべて削除しますか？';
+Blockly.Msg.CLEAN_UP = 'きれいにする';
 Blockly.Msg.HELP = 'Help';
-Blockly.Msg.UNDO = 'Undo';
-Blockly.Msg.REDO = 'Redo';
-Blockly.Msg.EDIT_PROCEDURE = 'Edit';
+Blockly.Msg.UNDO = '取り消し';
+Blockly.Msg.REDO = 'やり直し';
+Blockly.Msg.EDIT_PROCEDURE = '変更';
 Blockly.Msg.SHOW_PROCEDURE_DEFINITION = 'Go to definition';
 Blockly.Msg.WORKSPACE_COMMENT_DEFAULT_TEXT = 'Say something...';
 
@@ -272,8 +279,8 @@ Blockly.Msg.DELETE_VARIABLE = 'Delete the "%1" variable';
 
 // Custom Procedures
 // @todo Remove these once fully managed by Scratch VM / Scratch GUI
-Blockly.Msg.NEW_PROCEDURE = 'Make a function';
-Blockly.Msg.MANAGE_PROCEDURE = 'Manage a function';
+Blockly.Msg.NEW_PROCEDURE = 'ブロックを作る';
+Blockly.Msg.MANAGE_PROCEDURE = 'ブロックを管理する';
 Blockly.Msg.PROCEDURE_ALREADY_EXISTS = 'A procedure named "%1" already exists.';
 Blockly.Msg.PROCEDURE_DEFAULT_NAME = 'block name';
 Blockly.Msg.PROCEDURE_USED = 'To delete a block definition, first remove all uses of the block';
@@ -282,45 +289,49 @@ Blockly.Msg.PROCEDURE_USED = 'To delete a block definition, first remove all use
 
 //Drive block Messages
 
-Blockly.Msg.DRIVE_FORWARDS_DISTANCE = "forwards for";
-Blockly.Msg.DRIVE_BACKWARDS_DISTANCE = "backwards for";
-Blockly.Msg.DRIVE_LEFT_DISTANCE = "left for";
-Blockly.Msg.DRIVE_RIGHT_DISTANCE = "right for";
+Blockly.Msg.DRIVE_FORWARDS_DISTANCE = "前に進む";
+Blockly.Msg.DRIVE_BACKWARDS_DISTANCE = "後ろに戻る";
+Blockly.Msg.DRIVE_LEFT_DISTANCE = "左に";
+Blockly.Msg.DRIVE_RIGHT_DISTANCE = "右に";
 Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_CM = "cm";
 Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_INCH = "inch";
-Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_SECONDS = "seconds";
-Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_DEGREES = "degrees";
-Blockly.Msg.DRIVE_TURN_DROPDOWN_SPIN = "spin";
-Blockly.Msg.DRIVE_TURN_DROPDOWN_FORWARDS = "turn forwards";
-Blockly.Msg.DRIVE_TURN_DROPDOWN_BACKWARDS = "turn backwards";
-Blockly.Msg.DRIVE_FORWARDS_UNTIL = "forwards until";
-Blockly.Msg.DRIVE_BACKWARDS_UNTIL = "backwards until";
-Blockly.Msg.DRIVE_LEFT_UNTIL = "left until";
-Blockly.Msg.DRIVE_RIGHT_UNTIL = "right until";
-Blockly.Msg.DRIVE_SET_LEFT_MOTOR = "set left motor to";
-Blockly.Msg.DRIVE_SET_RIGHT_MOTOR = "set right motor to";
-Blockly.Msg.DRIVE_SET_MOTOR_DROPDOWN_FORWARDS = "forwards";
-Blockly.Msg.DRIVE_SET_MOTOR_DROPDOWN_BACKWARDS = "backwards";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR = "set both motors to";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_FORWARDS = "drive forwards";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_BACKWARDS = "drive  backwards";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_SPIN_LEFT = "spin robot left";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_SPIN_RIGHT = "spin robot right";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_TURN_LEFT = "turn robot left";
-Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_TURN_RIGHT = "turn robot right";
-Blockly.Msg.DRIVE_AT_SPEED = "at speed";
-Blockly.Msg.DRIVE_STOP = "stop";
-Blockly.Msg.DRIVE_STOP_DROPDOWN_BOTH = "both motors";
-Blockly.Msg.DRIVE_STOP_DROPDOWN_LEFT = "left motor";
-Blockly.Msg.DRIVE_STOP_DROPDOWN_RIGHT = "right motor";
+Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_SECONDS = "秒";
+Blockly.Msg.DRIVE_DISTANCE_DROPDOWN_DEGREES = "度";
+Blockly.Msg.DRIVE_TURN_DROPDOWN_SPIN = "回転する";
+Blockly.Msg.DRIVE_TURN_DROPDOWN_FORWARDS = "進む";
+Blockly.Msg.DRIVE_TURN_DROPDOWN_BACKWARDS = "戻る";
+Blockly.Msg.DRIVE_FORWARDS_UNTIL = "まで前に進む";
+Blockly.Msg.DRIVE_BACKWARDS_UNTIL = "まで後ろに戻る";
+Blockly.Msg.DRIVE_LEFT_UNTIL = "まで左に";
+Blockly.Msg.DRIVE_RIGHT_UNTIL = "まで右に";
+Blockly.Msg.DRIVE_SET = "設定にする";
+Blockly.Msg.DRIVE_SET_LEFT_MOTOR = "で左モーターを";
+Blockly.Msg.DRIVE_SET_RIGHT_MOTOR = "で右モーターを";
+Blockly.Msg.DRIVE_SET_MOTOR_DROPDOWN_FORWARDS = "前に進む";
+Blockly.Msg.DRIVE_SET_MOTOR_DROPDOWN_BACKWARDS = "後に戻る";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR = "で両方のモーターを";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_FORWARDS = "前に進む";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_BACKWARDS = "後に戻る";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_SPIN_LEFT = "左に回転する";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_SPIN_RIGHT = "右に回転する";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_TURN_LEFT = "左に進む";
+Blockly.Msg.DRIVE_SET_BOTH_MOTOR_DROPDOWN_TURN_RIGHT = "右に進む";
+Blockly.Msg.DRIVE_SPEED = "速さ";
+Blockly.Msg.DRIVE_AT = "で";
+Blockly.Msg.DRIVE_STOP = "を停止する";
+Blockly.Msg.DRIVE_STOP_DROPDOWN_BOTH = "両方のモーター";
+Blockly.Msg.DRIVE_STOP_DROPDOWN_LEFT = "左モーター";
+Blockly.Msg.DRIVE_STOP_DROPDOWN_RIGHT = "右モーター";
 
 
 //LED Block Messages
-Blockly.Msg.LED_LEFT = "turn left LED";
-Blockly.Msg.LED_RIGHT = "turn right LED";
-Blockly.Msg.LED_DROPDOWN_ON = "on";
-Blockly.Msg.LED_DROPDOWN_OFF = "off";
-Blockly.Msg.LED_SEND_MESSAGE = "send IR message";
+Blockly.Msg.LED_LEFT = "左のLEDを";
+Blockly.Msg.LED_RIGHT = "右のLEDを";
+Blockly.Msg.LED_DROPDOWN_ON = "ON";
+Blockly.Msg.LED_DROPDOWN_OFF = "OFF";
+Blockly.Msg.LED_SET = "にする";
+Blockly.Msg.LED_MESSAGE = "赤外線メッセージ";
+Blockly.Msg.LED_SEND = "を送信する";
 
 
 
@@ -345,105 +356,105 @@ Blockly.Msg.DEMO_FOLLOW_A_LINE_IF = "Follow a line using if statements";
 Blockly.Msg.DEMO_FOLLOW_A_LINE_IF_DISC = "A different way to use the line sensor to follow a line using an ‘if’ block";
 
 
-Blockly.Msg.MENU_DROP_MENU = "Menu"; //navMenuTop
-Blockly.Msg.MENU_DROP_NEW = "New"; //navNew
-Blockly.Msg.MENU_DROP_LOAD_DEMO = "Load demo"; //navPopLoadDemo
-Blockly.Msg.MENU_DROP_LOAD_LOCAL = "Load from computer"; //navPopLoadLocal
-Blockly.Msg.MENU_DROP_SAVE_LOCAL = "Save to computer"; //navPopLoadSave
-Blockly.Msg.MENU_DROP_UPDATE_FIRMWARE = "Update firmware"; //navPopFirmwareUpdate
-Blockly.Msg.MENU_DROP_DIAGNOSTICS = "Diagnostics"; //navPopHelp
-Blockly.Msg.MENU_DROP_ABOUT = "About"; //navPopAbout
-Blockly.Msg.MENU_DROP_TERMS = "Terms of use"; //navPopTerms
+Blockly.Msg.MENU_DROP_MENU = "メニュー"; //navMenuTop
+Blockly.Msg.MENU_DROP_NEW = "新規"; //navNew
+Blockly.Msg.MENU_DROP_LOAD_DEMO = "デモを読み込む"; //navPopLoadDemo
+Blockly.Msg.MENU_DROP_LOAD_LOCAL = "コンピューターから読み込む"; //navPopLoadLocal
+Blockly.Msg.MENU_DROP_SAVE_LOCAL = "コンピューターに保存する"; //navPopLoadSave
+Blockly.Msg.MENU_DROP_UPDATE_FIRMWARE = "ファームウェアを更新する"; //navPopFirmwareUpdate
+Blockly.Msg.MENU_DROP_DIAGNOSTICS = "診断する"; //navPopHelp
+Blockly.Msg.MENU_DROP_ABOUT = "EdScratchについて"; //navPopAbout
+Blockly.Msg.MENU_DROP_TERMS = "利用規約"; //navPopTerms
 
 
 Blockly.Msg.MENU_USB = "USB"; //navPopUSB
-Blockly.Msg.MENU_SAVE = " Save"; //navPopLoadSaveAlt
+Blockly.Msg.MENU_SAVE = " 保存"; //navPopLoadSaveAlt
 
 Blockly.Msg.MENU_VERSION_MAIN = " Edison V3"; //navVersionTop
-Blockly.Msg.MENU_VERSION_SWITCH = "Switch to Edison V1/V2"; //navVersionSwitch
-Blockly.Msg.MENU_VERSION_WHICH_VERSION = "Which version do I have?"; //navVersionHelp
-Blockly.Msg.MENU_PROGRAM = " Program"; //navProgram
-Blockly.Msg.MENU_PROGRAM_FLASH = " Program"; //navProgramFlash
+Blockly.Msg.MENU_VERSION_SWITCH = "Edison V1/V2に切り替える"; //navVersionSwitch
+Blockly.Msg.MENU_VERSION_WHICH_VERSION = "自分のEdisonのバージョンを確認する"; //navVersionHelp
+Blockly.Msg.MENU_PROGRAM = " プログラムを書き込む"; //navProgram
+Blockly.Msg.MENU_PROGRAM_FLASH = " プログラムを書き込む"; //navProgramFlash
 
 
-Blockly.Msg.MODAL_CREATE_VAR = "Create Variable"; //divCreateVarsTitle
-Blockly.Msg.MODAL_CREATE_VAR_NAME = "Variable Name"; //divCreateVarslabel
-Blockly.Msg.MODAL_CREATE_VAR_BUTTON = "Create Variable"; //btnCreateVar
-Blockly.Msg.MODAL_CREATE_VAR_EXIT = "Exit"; //btnCreateVarDone
-Blockly.Msg.MODAL_CREATE_VAR_SUCCESS = "New variable created successfully."; //in file 1511 and 1488 but here for sure
+Blockly.Msg.MODAL_CREATE_VAR = "新しい変数"; //divCreateVarsTitle
+Blockly.Msg.MODAL_CREATE_VAR_NAME = "新しい変数名"; //divCreateVarslabel
+Blockly.Msg.MODAL_CREATE_VAR_BUTTON = "OK"; //btnCreateVar
+Blockly.Msg.MODAL_CREATE_VAR_EXIT = "キャンセル"; //btnCreateVarDone
+Blockly.Msg.MODAL_CREATE_VAR_SUCCESS = "新しい変数を作成しました。"; //in file 1511 and 1488 but here for sure
 
-Blockly.Msg.MODAL_MANAGE_VAR = "Variables "; //divManageVarslabel
-Blockly.Msg.MODAL_MANAGE_VAR_NAME = "Variable Name"; //divManageVarsName
-Blockly.Msg.MODAL_MANAGE_VAR_ACTION = "Action"; //divManageVarsAction
-Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_DELETE = "delete"; //in code workspace setup 655
-Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_RENAME = "rename"; //in code workspace setup 656
-Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_CONFIRM = "confirm"; // in code 1378
-Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_CANCEL = "cancel"; // in code 1378
-Blockly.Msg.MODAL_MANAGE_VAR_CONFIRM_NOT_CHANGED = "You did not change the variable name. Please try again."; //in code 1401
-Blockly.Msg.MODAL_MANAGE_VAR_CONFIRM_SUCCESS = "Variable renamed successfully!"; //in code 1423
+Blockly.Msg.MODAL_MANAGE_VAR = "変数"; //divManageVarslabel
+Blockly.Msg.MODAL_MANAGE_VAR_NAME = "変数名"; //divManageVarsName
+Blockly.Msg.MODAL_MANAGE_VAR_ACTION = "操作"; //divManageVarsAction
+Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_DELETE = "削除"; //in code workspace setup 655
+Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_RENAME = "名前を変更"; //in code workspace setup 656
+Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_CONFIRM = "OK"; // in code 1378
+Blockly.Msg.MODAL_MANAGE_VAR_BUTTON_CANCEL = "キャンセル"; // in code 1378
+Blockly.Msg.MODAL_MANAGE_VAR_CONFIRM_NOT_CHANGED = "変数名が変更されていません。"; //in code 1401
+Blockly.Msg.MODAL_MANAGE_VAR_CONFIRM_SUCCESS = "変数名を変更しました。"; //in code 1423
 
-Blockly.Msg.MODAL_MANAGE_VAR_NAME_NONE = "Please enter a variable name."; //in code 1554
-Blockly.Msg.MODAL_MANAGE_VAR_NAME_IN_USE = "You already have a variable with that name."; //in code 1558
-Blockly.Msg.MODAL_MANAGE_VAR_NAME_UNSUPPORTED = "Variable name contains an unsupported character. Variable names can only contain lowercase English letters, uppercase English letters, numbers, and underscores ( _ )."; //line 1563
-Blockly.Msg.MODAL_MANAGE_VAR_NAME_NUMBER_START = "Variable names cannot start with a number."; //in code 1567
+Blockly.Msg.MODAL_MANAGE_VAR_NAME_NONE = "変数名を入力してください。"; //in code 1554
+Blockly.Msg.MODAL_MANAGE_VAR_NAME_IN_USE = "この変数名はすでに存在します。"; //in code 1558
+Blockly.Msg.MODAL_MANAGE_VAR_NAME_UNSUPPORTED = "変数名に使用できない文字が含まれています。変数名には英数字（a-z,A-Z,0-9）とアンダースコア（ _ ）のみ使用できます。"; //line 1563
+Blockly.Msg.MODAL_MANAGE_VAR_NAME_NUMBER_START = "変数名の最初の文字に数字を使用することはできません。変数名の最初の文字には英字（a-z,A-Z）とアンダースコア（ _ ）のみ使用できます。"; //in code 1567
 
-Blockly.Msg.MODAL_MANAGE_VAR_DELETE_IN_USE = "This variable is currently being used in your program. Are you sure you want to delete it?"; //in code 11619
+Blockly.Msg.MODAL_MANAGE_VAR_DELETE_IN_USE = "この変数名はすでに存在します。"; //in code 11619
 Blockly.Msg.MODAL_MANAGE_VAR_DELETE_CONFIRM = "Yes"; //in code line 1619
 Blockly.Msg.MODAL_MANAGE_VAR_DELETE_DECLINE = "No"; //in code line 1619
 
-Blockly.Msg.MODAL_CREATE_FUNCT = "Create Function"; //divCreateFunctTitle
-Blockly.Msg.MODAL_CREATE_FUNCT_NAME = "Function Name"; //divCreateFunctLabel
+Blockly.Msg.MODAL_CREATE_FUNCT = "新しいブロック"; //divCreateFunctTitle
+Blockly.Msg.MODAL_CREATE_FUNCT_NAME = "ブロック名"; //divCreateFunctLabel
 Blockly.Msg.MODAL_CREATE_FUNCT_WARNING = "Alphanumeric characters only and must begin with a letter."; //divCreateFunctWarning
-Blockly.Msg.MODAL_CREATE_FUNCT_BUTTON = "Create Function"; //btnCreateFunc
-Blockly.Msg.MODAL_CREATE_FUNCT_BUTTON_EXIT = "Exit"; //btnCreateFuncDone
-Blockly.Msg.MODAL_CREATE_FUNCT_SUCCESS = "New function created successfully.";
+Blockly.Msg.MODAL_CREATE_FUNCT_BUTTON = "OK"; //btnCreateFunc
+Blockly.Msg.MODAL_CREATE_FUNCT_BUTTON_EXIT = "キャンセル"; //btnCreateFuncDone
+Blockly.Msg.MODAL_CREATE_FUNCT_SUCCESS = "新しいブロックを作成しました。";
 
-Blockly.Msg.MODAL_MANAGE_FUNCT = "Functions "; //divManageFunctlabel
-Blockly.Msg.MODAL_MANAGE_FUNCT_NAME = "Function Name"; //divManageFunctName
-Blockly.Msg.MODAL_MANAGE_FUNCT_ACTION = "Action"; //divManageFunctAction
-Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_DELETE = "delete"; //in code workspace setup 655
-Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_RENAME = "rename"; //in code workspace setup 656
-Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_CONFIRM = "confirm"; // in code 1378
-Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_CANCEL = "cancel"; // in code 1378
-Blockly.Msg.MODAL_MANAGE_FUNCT_CONFIRM_NOT_CHANGED = "You did not change the function name. Please try again."; //in code 1401
-Blockly.Msg.MODAL_MANAGE_FUNCT_CONFIRM_SUCCESS = "Function renamed successfully!"; //in code 1423
+Blockly.Msg.MODAL_MANAGE_FUNCT = "ブロック"; //divManageFunctlabel
+Blockly.Msg.MODAL_MANAGE_FUNCT_NAME = "ブロック名"; //divManageFunctName
+Blockly.Msg.MODAL_MANAGE_FUNCT_ACTION = "操作"; //divManageFunctAction
+Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_DELETE = "削除"; //in code workspace setup 655
+Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_RENAME = "名前を変更"; //in code workspace setup 656
+Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_CONFIRM = "OK"; // in code 1378
+Blockly.Msg.MODAL_MANAGE_FUNCT_BUTTON_CANCEL = "キャンセル"; // in code 1378
+Blockly.Msg.MODAL_MANAGE_FUNCT_CONFIRM_NOT_CHANGED = "ブロック名が変更されていません。"; //in code 1401
+Blockly.Msg.MODAL_MANAGE_FUNCT_CONFIRM_SUCCESS = "ブロック名を変更しました。"; //in code 1423
 
-Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_NONE = "Please enter a function name."; //in code
-Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_IN_USE = "You already have a function with that name."; //in code
+Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_NONE = "ブロック名を入力してください。"; //in code
+Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_IN_USE = "このブロック名はすでに存在します。"; //in code
 Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_START_WITH = "User function names cannot start with";
-Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_UNSUPPORTED = "Function name contains an unsupported character. Function names can only contain lowercase English letters, uppercase English letters, numbers, and underscores ( _ )."; //line
-Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_NUMBER_START = "Function names cannot start with a number."; //in code 1567
+Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_UNSUPPORTED = "ブロック名に使用できない文字が含まれています。ブロック名には英数字（a-z,A-Z,0-9）とアンダースコア（ _ ）のみ使用できます。"; //line
+Blockly.Msg.MODAL_MANAGE_FUNCT_NAME_NUMBER_START = "ブロック名の最初の文字に数字を使用することはできません。ブロック名の最初の文字には英字（a-z,A-Z）とアンダースコア（ _ ）のみ使用できます。"; //in code 1567
 
-Blockly.Msg.MODAL_MANAGE_FUNCT_DELETE_IN_USE = "This function is currently being used in your program. Are you sure you want to delete it?"; //in code 11619
+Blockly.Msg.MODAL_MANAGE_FUNCT_DELETE_IN_USE = "このブロック名はすでに存在します。"; //in code 11619
 Blockly.Msg.MODAL_MANAGE_FUNCT_DELETE_CONFIRM = "Yes"; //in code line 1619
 Blockly.Msg.MODAL_MANAGE_FUNCT_DELETE_DECLINE = "No"; //in code line 1619
 
-Blockly.Msg.MODAL_SAVE_TITLE = "Save to computer"; //no ID yet
-Blockly.Msg.MODAL_SAVE_PROG_TITLE = "Program name"; //no ID yet
-Blockly.Msg.MODAL_SAVE_BUTTON = "Save to computer"; //no ID yet
+Blockly.Msg.MODAL_SAVE_TITLE = "コンピューターに保存する"; //no ID yet
+Blockly.Msg.MODAL_SAVE_PROG_TITLE = "プログラム名"; //no ID yet
+Blockly.Msg.MODAL_SAVE_BUTTON = "保存する"; //no ID yet
 Blockly.Msg.MODAL_SAVE_ERROR_NO_NAME = "Please enter a name for your program. You need to name the program in order to save it."; //1050 in function, replace
 Blockly.Msg.MODAL_SAVE_ERROR_LONG_NAME = "Whoops. There's a problem with that program name. Program names can be a maximum of 255 characters long."; //1052 in function, replace
-Blockly.Msg.MODAL_SAVE_SAVING = "OK! Your program is being saved. The download of your program should begin soon."; //268 in function, replace
+Blockly.Msg.MODAL_SAVE_SAVING = "プログラムを保存しています。まもなくプログラムのダウンロードが開始します。"; //268 in function, replace
 
-Blockly.Msg.MODAL_LOAD_PC_TITLE = "Load from computer"; //no ID yet
-Blockly.Msg.MODAL_LOAD_PC_FILE_ERROR_1 = "Please select an EdScratch save file."; //no ID yet
-Blockly.Msg.MODAL_LOAD_PC_FILE_ERROR_2 = "All EdScratch save files are file type"; //no ID yet
+Blockly.Msg.MODAL_LOAD_PC_TITLE = "コンピューターから読み込む"; //no ID yet
+Blockly.Msg.MODAL_LOAD_PC_FILE_ERROR_1 = "EdScratchファイルを選択してください。"; //no ID yet
+Blockly.Msg.MODAL_LOAD_PC_FILE_ERROR_2 = "EdScratchファイルの拡張子："; //no ID yet
 Blockly.Msg.MODAL_LOAD_PC_FILE_ERROR_3 = ".edscratch"; //no ID yet
-Blockly.Msg.MODAL_LOAD_PC_FILE_BUTTON = "Select a file to upload..."; //no ID yet
-Blockly.Msg.MODAL_LOAD_PC_BUTTON = "Load program"; //btnLoadLocal
-Blockly.Msg.MODAL_LOAD_PC_NO_FILE_ERROR_1 = "You haven't selected a file yet. Please first select an EdScratch save file from your computer, then load the file. [All EdScratch save files are file type (.edscratch).]"; //IN FILE 398
+Blockly.Msg.MODAL_LOAD_PC_FILE_BUTTON = "選択する..."; //no ID yet
+Blockly.Msg.MODAL_LOAD_PC_BUTTON = "読み込む"; //btnLoadLocal
+Blockly.Msg.MODAL_LOAD_PC_NO_FILE_ERROR_1 = "EdScratchファイルが選択されていません。コンピューターに保存されたEdScratchファイルを選択し、「読み込む」をクリックしてください。"; //IN FILE 398
 Blockly.Msg.MODAL_LOAD_PC_FILE_DATA_ERROR_1 = "Uh-oh. There's a problem with the data in that file."; //IN FILE 417
 Blockly.Msg.MODAL_LOAD_PC_FILE_DATA_ERROR_2 = "Please upload a different EdScratch save file. [All EdScratch save files are file type (.edscratch).]"; //IN FILE 417
 Blockly.Msg.MODAL_LOAD_PC_FILE_TYPE_ERROR_1 = "Uh-oh. You've uploaded an incorrect file type."; //IN FILE 417
 Blockly.Msg.MODAL_LOAD_PC_FILE_TYPE_ERROR_2 = "Please upload an EdScratch save file. [All EdScratch save files are file type (.edscratch).]"; //IN FILE 417
-Blockly.Msg.MODAL_LOAD_PC_FILE_READY = "Ready to load program:";
+Blockly.Msg.MODAL_LOAD_PC_FILE_READY = "プログラムを読み込む準備が整いました:";
 
 
-Blockly.Msg.MODAL_LOAD_DEMO_TITLE = "Load demo"; //no ID yet
-Blockly.Msg.MODAL_LOAD_DEMO_BUTTON = "Load program"; //471 IN FILE
+Blockly.Msg.MODAL_LOAD_DEMO_TITLE = "デモを読み込む"; //no ID yet
+Blockly.Msg.MODAL_LOAD_DEMO_BUTTON = "読み込む"; //471 IN FILE
 
 
-Blockly.Msg.MODAL_ABOUT_TITLE = "About EdScratch"; //divAboutLabel
+Blockly.Msg.MODAL_ABOUT_TITLE = "EdScratchについて"; //divAboutLabel
 Blockly.Msg.MODAL_ABOUT_COPYRIGHT = "Copyright 2023 Microbric Pty Ltd"; //divAboutCopyright
 Blockly.Msg.MODAL_ABOUT_BODY_1 = "The EdScratch app was developed using the Scratch Blocks code base developed by MIT. Scratch Blocks was built on the Blockly code base developed by Google."//divAboutMIT
 Blockly.Msg.MODAL_ABOUT_BODY_2 = "Contributions and credits:"; // divAboutCredits
@@ -452,7 +463,7 @@ Blockly.Msg.MODAL_ABOUT_BODY_4 = "EdScratch user interface developed by Sean Kil
 Blockly.Msg.MODAL_ABOUT_BODY_5 = "Edison V3 firmware developed by Damien George, George Robotics (MicroPython code base)"// divAboutCreditsDamien
 
 
-Blockly.Msg.MODAL_DIAGNOSTICS = "Diagnostics"; //divDiagnosticsLabel
+Blockly.Msg.MODAL_DIAGNOSTICS = "診断する"; //divDiagnosticsLabel
 Blockly.Msg.MODAL_DIAGNOSTICS_CONNECT_ISSUES_TITLE = "Connectivity issues"; //divDiagnosticsConnectLabel
 Blockly.Msg.MODAL_DIAGNOSTICS_CONNECT_ISSUES_BODY = "To ensure that your program can be compiled and sent to the Edison robot, it is a good idea to check your connection with the EdScratch compiler."; //divDiagnosticsConnectBody
 Blockly.Msg.MODAL_DIAGNOSTICS_CONNECT_ISSUES_BUTTON = "Run the connection checker"; //navPopHelpConnection
@@ -533,12 +544,12 @@ Blockly.Msg.MODAL_PROGRAMING_DONE = "OK! The program has loaded to your Edison."
 Blockly.Msg.MODAL_PROGRAMING_ERROR_JSON = "Response is not JSON!";
 Blockly.Msg.MODAL_PROGRAMING_ERROR_UNKNOWN = "Unknown Error!";
 
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_TITLE = "Firmware update"; //divFirmwareUpdateLabel
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_LATEST = "The latest Edison V3 firmware version is: "; //divFirmwareLatestVersion
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_POPUP = "Use this pop-up to update the firmware in your Edison."; //divFirmwareUseThis
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE1 = "To update Edison V3 firmware:"; //divFirmwareToUpdate
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE2 = "Plug in your Edison and click the 'Update firmware' button below then follow the prompts."; //divFirmwareFollowPrompts
-Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE_BUTTON = "Update firmware "; //btnFUHubConnect
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_TITLE = "ファームウェアを更新する"; //divFirmwareUpdateLabel
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_LATEST = "最新のEdisonファームウェアバージョン: "; //divFirmwareLatestVersion
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_POPUP = "この画面でEdisonのファームウェアを更新します。"; //divFirmwareUseThis
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE1 = "Edisonファームウェアの更新方法:"; //divFirmwareToUpdate
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE2 = "Edisonを接続し、「ファームウェア更新」をクリックします。"; //divFirmwareFollowPrompts
+Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_UPDATE_BUTTON = "ファームウェア更新"; //btnFUHubConnect
 Blockly.Msg.MODAL_FIRMWARE_UPDATE_TO_RECONNECT_BUTTON = "Reconnect Edison "; //btnFUHubReconnect
 Blockly.Msg.MODAL_FIRMWARE_UPDATE_FEEDBACK_START = "Ready..."; //811 IN FILE
 //need text from the update process
@@ -553,16 +564,16 @@ Blockly.Msg.MODAL_FIRMWARE_UPDATE_FIRM_COMPLETE = "Firmware update complete.";
 Blockly.Msg.MODAL_FIRMWARE_UPDATE_NONE_NEEDED = "No update required: the firmware on your Edison is up to date.";
 
 
-Blockly.Msg.MODAL_USB_CONTROL = "USB Controls"; //no ID yet
-Blockly.Msg.MODAL_USB_RUN_BUTTON = "Run USB"; //usbRun
-Blockly.Msg.MODAL_USB_CONNECTED_STATUS = "CONNECTED"; //IN FILE 583
-Blockly.Msg.MODAL_USB_DISCONNECTED_STATUS = "DISCONNECTED"; //IN FILE 590 AND 601
-Blockly.Msg.MODAL_USB_RUNNING_STATUS = "RUNNING"; //IN FILE 595
-Blockly.Msg.MODAL_USB_DATA_TO = "Data to USB"; //no ID yet
-Blockly.Msg.MODAL_USB_DATA_TO_BUTTON = "Send to USB"; //usbSend
-Blockly.Msg.MODAL_USB_DATA_FROM = "Data from USB"; //no ID yet
-Blockly.Msg.MODAL_USB_DATA_FROM_CLEAR = "Clear"; //usbClear
-Blockly.Msg.MODAL_USB_DATA_FROM_COPY = "Copy to clipboard"; //usbExport AND 614 IN CODE
+Blockly.Msg.MODAL_USB_CONTROL = "USB制御"; //no ID yet
+Blockly.Msg.MODAL_USB_RUN_BUTTON = "接続する"; //usbRun
+Blockly.Msg.MODAL_USB_CONNECTED_STATUS = "接続済み"; //IN FILE 583
+Blockly.Msg.MODAL_USB_DISCONNECTED_STATUS = "未接続"; //IN FILE 590 AND 601
+Blockly.Msg.MODAL_USB_RUNNING_STATUS = "接続中"; //IN FILE 595
+Blockly.Msg.MODAL_USB_DATA_TO = "データ送信"; //no ID yet
+Blockly.Msg.MODAL_USB_DATA_TO_BUTTON = "送信する"; //usbSend
+Blockly.Msg.MODAL_USB_DATA_FROM = "データ受信"; //no ID yet
+Blockly.Msg.MODAL_USB_DATA_FROM_CLEAR = "クリアする"; //usbClear
+Blockly.Msg.MODAL_USB_DATA_FROM_COPY = "クリップボードにコピーする"; //usbExport AND 614 IN CODE
 Blockly.Msg.MODAL_USB_DATA_FROM_COPIED = "Copied!"; //612 IN CODE
 
 
@@ -576,90 +587,93 @@ Blockly.Msg.MODAL_BAD_BROWSER_UNSUPORTED = "does not currently support USB conne
 Blockly.Msg.MODAL_BAD_BROWSER_USE_CHROME = "We recommend using Google Chrome."; //divBrowserRecommendChrome
 Blockly.Msg.MODAL_BAD_BROWSER_GET_CHROME = "Get Chrome."; //divBrowserChrome
 
-Blockly.Msg.MODAL_LOADING = "Loading workspace..."; //divLoadingLabel
+Blockly.Msg.MODAL_LOADING = "読み込み中..."; //divLoadingLabel
 
 Blockly.Msg.MODAL_FLASHER_TITLE = "Flasher"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_STEP_1 = "Place Edison over image"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_STEP_2 = "Press Edison's round button once"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_STEP_3 = "Press 'Download program'"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_RELIABLE = "Reliable"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_FAST = "Fast"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_ADJUST_SPEED = "If the download does not work or is not fast enough, try adjusting the speed above. The lowest speed is usually the most reliable."; //no ID yet
-Blockly.Msg.MODAL_FLASHER_DOWNLOAD = "Download program"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_CANCEL = "Cancel"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_TIPS_HEADING = "Tips"; //no ID yet
-Blockly.Msg.MODAL_FLASHER_TIPS_BODY_1 = "Adjust screen brightness between 80% to 90%."; //divFlasherTipsBody1
-Blockly.Msg.MODAL_FLASHER_TIPS_BODY_2 = "Move away from direct and in-direct sunlight or bright lights. "; //divFlasherTipsBody2
-Blockly.Msg.MODAL_FLASHER_TIPS_BODY_3 = "Ensure you have updated Edison V3 to the latest firmware."; //divFlasherTipsBody3
-Blockly.Msg.MODAL_FLASHER_DOWNLOADING = "Downloading...";
-Blockly.Msg.MODAL_FLASHER_COMPLETE = "Complete";
+Blockly.Msg.MODAL_FLASHER_STEP_1 = "Edisonをイラストに重ねます。"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_STEP_2 = "Edisonの●丸ボタンを押します。"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_STEP_3 = "「書き込む」をクリックします。"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_RELIABLE = "低速"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_FAST = "高速"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_ADJUST_SPEED = "書き込みに時間がかかる場合は、速度を調節してください。速度が遅い方が、書き込みの信頼性が高いです。"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_DOWNLOAD = "書き込む"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_CANCEL = "キャンセル"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_TIPS_HEADING = "ヒント"; //no ID yet
+Blockly.Msg.MODAL_FLASHER_TIPS_BODY_1 = "スクリーンの明るさを80%から90%の間に調節してください。"; //divFlasherTipsBody1
+Blockly.Msg.MODAL_FLASHER_TIPS_BODY_2 = "太陽光や明るい照明を避けてください。"; //divFlasherTipsBody2
+Blockly.Msg.MODAL_FLASHER_TIPS_BODY_3 = "Edisonのファームウェアを最新のものに更新してください。"; //divFlasherTipsBody3
+Blockly.Msg.MODAL_FLASHER_DOWNLOADING = "書き込み中...";
+Blockly.Msg.MODAL_FLASHER_COMPLETE = "書き込み完了";
 Blockly.Msg.MODAL_FLASHER_BYTES = "bytes in";
 Blockly.Msg.MODAL_FLASHER_SECONDS = "seconds";
 
-Blockly.Msg.ERROR_RED_OBS_SETTING = "'Obstacle detection' blocks do not work unless the obstacle detection beam is turned on using the 'obstacle detection beam' block from the 'Sensing' category.";
-Blockly.Msg.ERROR_RED_OBS_SETTING_EVENT = "'Obstacle detection' events do not work unless the obstacle detection beam is turned on using the 'obstacle detection beam' block from the 'Sensing' category in the main program.";
-Blockly.Msg.ERROR_RED_LINE_SETTING = "'Line detection' blocks do not work unless the line detection LED is turned on using the 'line tracking LED' block from the 'Sensing' category.";
-Blockly.Msg.ERROR_RED_LINE_SETTING_EVENT = "'Line detection' events do not work unless the line detection LED is turned on using the 'line tracking LED' block from the 'Sensing' category in the main program.";
-Blockly.Msg.ERROR_RED_DRIVE_CLAP = "Edison cannot detect claps while driving because the motors are too noisy.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_FORWARDS = "'Forwards until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_BACKWARDS = "'Backwards until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_LEFT = "'Left until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_RIGHT = "'Right until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_SET_VAR = "'Set variable' blocks need a variable.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_INC_VAR = "'Increment variable' blocks need a variable.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_DEC_VAR = "'Decrement variable' blocks need a variable.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_IF = "'If' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_IF_ELSE = "'If-else' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_WAIT = "'Wait until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_WAIT_MILLI = "'Wait milliseconds' blocks need an input value.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_REP = "'Repeat until' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_BS_RIGHT = "'Bit shift right' blocks need a variable.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_BS_LEFT = "'Bit shift left' blocks need a variable.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_NOT = "'Not' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_AND = "'And' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_OR = "'Or' blocks need a condition input.";
-Blockly.Msg.ERROR_RED_EMPTY_BACKGROUND_MUSIC = "'Play music in background' grouping blocks need to contain at least one 'note' block.";
+Blockly.Msg.ERROR_RED_OBS_SETTING = "障害物検出は、「調べる」カテゴリの「障害物検出をONにする」ブロックが実行されるまでは動作しません。";
+Blockly.Msg.ERROR_RED_OBS_SETTING_EVENT = "障害物検出は、「調べる」カテゴリの「障害物検出をONにする」ブロックが実行されるまでは動作しません。";
+Blockly.Msg.ERROR_RED_LINE_SETTING = "ライン検出は、「調べる」カテゴリの「ライン検出をONにする」ブロックが実行されるまでは動作しません。";
+Blockly.Msg.ERROR_RED_LINE_SETTING_EVENT = "ライン検出は、「調べる」カテゴリの「ライン検出をONにする」ブロックが実行されるまでは動作しません。";
+Blockly.Msg.ERROR_RED_DRIVE_CLAP = "拍手検出は、モーターが動いている間はモーターのノイズが大きいため動作しません。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_FORWARDS = "「〜まで前に進む」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_BACKWARDS = "「〜まで後ろに戻る」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_LEFT = "「〜まで左に」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_RIGHT = "「〜まで右に」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_SET_VAR = "「〜を〜にする」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_INC_VAR = "「〜を1ずつ変える」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_DEC_VAR = "「〜を-1ずつ変える」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_IF = "「もし〜なら」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_IF_ELSE = "「もし〜なら、でなければ」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_WAIT = "「〜まで待つ」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_WAIT_MILLI = "「〜ミリ秒待つ」ブロックは入力値が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_REP = "「〜まで繰り返す」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_BS_RIGHT = "「〜を右に〜ビットシフトする」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_BS_LEFT = "「〜を左に〜ビットシフトする」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_NOT = "「〜ではない」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_AND = "「〜かつ〜」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_OPERATOR_OR = "「〜または〜」ブロックは条件文（〜）が必要です。";
+Blockly.Msg.ERROR_RED_EMPTY_BACKGROUND_MUSIC = "「バックグラウンドで音を鳴らす」ブロックの内部には1つ以上の「〜拍鳴らす」ブロックが必要です。";
 Blockly.Msg.ERROR_RED_NO_START = "Programs must have a 'start' event to work correctly. If you are seeing this error message, start a new program by going to the menu and selecting 'new'.";
-Blockly.Msg.ERROR_RED_NOT_BACKGROUND_MUSIC = "'Play music in background' grouping blocks can only accept 'note' blocks.";
-Blockly.Msg.ERROR_RED_NO_MAIN_BLOCKS = "There are no blocks connected to the 'start' event, so there is no main program for Edison to run.";
-Blockly.Msg.ERROR_RED_EMPTY_IN_USB_RECEIVED = "'wait for usb data' blocks need a variable.";
-Blockly.Msg.ERROR_RED_DEVIDE_BY_ZERO = "'Devide operator' blocks cannot devide by zero.";
-Blockly.Msg.ERROR_RED_FUNCTION_IN_FUNCTION = "Function call blocks cannot be placed under a function start block";
+Blockly.Msg.ERROR_RED_NOT_BACKGROUND_MUSIC = "「バックグラウンドで音を鳴らす」ブロックの内部には「〜拍鳴らす」ブロックのみ接続できます。";
+Blockly.Msg.ERROR_RED_NO_MAIN_BLOCKS = "「スタート」ブロックにブロックが接続されていません。";
+Blockly.Msg.ERROR_RED_EMPTY_IN_USB_RECEIVED = "「USBから〜にデータを受信する」ブロックは変数が必要です。";
+Blockly.Msg.ERROR_RED_DEVIDE_BY_ZERO = "「割り算」ブロックの分母に0を入力することはできません。";
+Blockly.Msg.ERROR_RED_FUNCTION_IN_FUNCTION = "ブロック定義の内部にブロック定義を接続することはできません。";
 
 
-Blockly.Msg.ERROR_YELLOW_RECEIVE_MESSAGE_OBS_ON = "Edison cannot receive messages while 'obstacle detection' is on. Make sure to turn obstacle detection off in the program before attempting to receive a message.";
-Blockly.Msg.ERROR_YELLOW_RECEIVE_REMOTE_OBS_ON = "Edison cannot receive remote control codes while 'obstacle detection' is on. Make sure to turn obstacle detection off in the program before attempting to receive a remote code.";
-Blockly.Msg.ERROR_YELLOW_RECEIVE_MESSAGE_EVENT_OBS_ON = "Edison cannot receive messages while 'obstacle detection' is on. Make sure to turn obstacle detection off in the main program before attempting to receive a message.";
-Blockly.Msg.ERROR_YELLOW_RECEIVE_REMOTE_EVENT_OBS_ON = "Edison cannot receive remote control codes while 'obstacle detection' is on. Make sure to turn obstacle detection off in the main program before attempting to receive a remote code.";
+Blockly.Msg.ERROR_YELLOW_RECEIVE_MESSAGE_OBS_ON = "障害物検出がONになっていると赤外線メッセージを受信できません。赤外線メッセージを受信する場合は障害物検出をOFFにしてください。";
+Blockly.Msg.ERROR_YELLOW_RECEIVE_REMOTE_OBS_ON = "障害物検出がONになっているとリモコンコードを受信できません。リモコンコードを受信する場合は障害物検出をOFFにしてください。";
+Blockly.Msg.ERROR_YELLOW_RECEIVE_MESSAGE_EVENT_OBS_ON = "障害物検出がONになっていると赤外線メッセージを受信できません。赤外線メッセージを受信する場合は障害物検出をOFFにしてください。";
+Blockly.Msg.ERROR_YELLOW_RECEIVE_REMOTE_EVENT_OBS_ON = "障害物検出がONになっているとリモコンコードを受信できません。リモコンコードを受信する場合は障害物検出をOFFにしてください。";
 Blockly.Msg.ERROR_YELLOW_READ_LIGHT_LINE_OFF = "Consider turning the line detection LED on using the 'line tracking LED' block from the 'Sensing' category if measuring reflectiveness of the driving surface.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_WAIT_UNTIL = "An 'operator' block inside a 'wait until' block may cause Edison to wait forever or skip the 'wait' block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_REPEAT_UNTIL = "An 'operator' block inside a 'repeat until' block may cause Edison to loop forever or skip the 'repeat' block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_WAIT = "An 'operator' block inside a 'wait' block may cause Edison to skip the 'wait' block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_REPEAT = "An 'operator' block inside a 'repeat' block may cause Edison to skip the 'repeat' block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_FOR_UNTIL = "An 'operator' block inside a 'drive forwards until' block may cause Edison to drive forever or skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_BACK_UNTIL = "An 'operator' block inside a 'drive backwards until' block may cause Edison to drive forever or skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_LEFT_UNTIL = "An 'operator' block inside a 'drive left until' block may cause Edison to drive forever or skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_RIGHT_UNTIL = "An 'operator' block inside a 'drive right until' block may cause Edison to drive forever or skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_FOR_DIST = "An 'operator' block inside a 'drive forwards' block may cause Edison to skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_BACK_DIST = "An 'operator' block inside a 'drive backwards' block may cause Edison to skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_LEFT_DIST = "An 'operator' block inside a 'drive left' block may cause Edison to skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_RIGHT_DIST = "An 'operator' block inside a 'drive right' block may cause Edison to skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_DRIVE_LIGHT = "An 'light level' block inside a 'drive' block may cause Edison to drive forever or skip the drive block.";
-Blockly.Msg.ERROR_YELLOW_OPPERATOR_IR_MESSAGE = "An 'operator' block inside a 'send IR message' block will not be able to send a value larger then 255";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_WAIT_UNTIL = "「〜まで待つ」ブロックの内部の「演算」カテゴリのブロックは、待ち続けたり、全く待たない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_REPEAT_UNTIL = "「〜まで繰り返す」ブロックの内部の「演算」カテゴリのブロックは、繰り返し続けたり、全く繰り返さない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_WAIT = "「〜秒待つ」ブロックの内部の「演算」カテゴリのブロックは、全く待たない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_REPEAT = "「〜回繰り返す」ブロックの内部の「演算」カテゴリのブロックは、全く繰り返さない動作を引き起こす可能性があります。";
+
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_FOR_UNTIL = "「〜まで前に進む」ブロックの内部の「演算」カテゴリのブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_BACK_UNTIL = "「〜まで後ろに戻る」ブロックの内部の「演算」カテゴリのブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_LEFT_UNTIL = "「〜まで左に」ブロックの内部の「演算」カテゴリのブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_RIGHT_UNTIL = "「〜まで右に」ブロックの内部の「演算」カテゴリのブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_FOR_DIST = "「〜前に進む」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_BACK_DIST = "「〜後ろに戻る」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_LEFT_DIST = "「〜左に」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_RIGHT_DIST = "「〜右に」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
+
+Blockly.Msg.ERROR_YELLOW_DRIVE_LIGHT = "「動き」カテゴリのブロックの内部の「〜で検出された光量」ブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_OPPERATOR_IR_MESSAGE = "「赤外線メッセージ〜を送信する」ブロックの内部の「演算」カテゴリのブロックの255よりも大きい値は、送信されません。";
 Blockly.Msg.ERROR_YELLOW_FOREVER_LOOP_IN = "A 'forever' loop will continue looping until you press the square button on Edison.";
-Blockly.Msg.ERROR_YELLOW_SET_MOTOR_LEFT = "The 'set left motor' block will only turn the left motor on. Make sure there are additional blocks used in the program to control the left motor's duration.";
-Blockly.Msg.ERROR_YELLOW_SET_MOTOR_RIGHT = "The 'set right motor' block will only turn the right motor on. Make sure there are additional blocks used in the program to control the right motor's duration.";
-Blockly.Msg.ERROR_YELLOW_SET_MOTOR_BOTH = "The 'set both motors' block will only turn the motors on. Make sure there are additional blocks used in the program to control the motor's duration.";
-Blockly.Msg.ERROR_YELLOW_CLAP_EVENT_DRIVE = "Driving the motors creates noise which may cause the 'clap' event to trigger. This may cause the 'clap event' blocks to trigger repeatedly while Edison is driving.";
-Blockly.Msg.ERROR_YELLOW_FLOAT_BLOCKS = "Blocks not connected to a yellow 'event' block or 'function definition' block will not be programmed into Edison.";
-Blockly.Msg.ERROR_YELLOW_WAIT_TIME_LIGHT = "Light level will return a very high value which may cause Edison to wait for a long time.";
-Blockly.Msg.ERROR_YELLOW_REPEAT_LOOP_LIGHT = "Light level will return a very high value which may cause Edison to loop for a long time.";
-Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN = "The 'drive strain detected' block will only detect strain while the motors are running.";
-Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN_EVENT = "The 'drive strained' event can only trigger while the motors are running.";
-Blockly.Msg.ERROR_YELLOW_COMMENT = "Comments are notes to help keep track of things. Comment blocks will not be programmed into Edison.";
-Blockly.Msg.ERROR_YELLOW_USB_USED = "USB blocks require Edison to be plugged into a device to work";
-Blockly.Msg.ERROR_YELLOW_CLEAR_SENSOR = "Some sensor data is stored in Edison's memory. You may need to clear the sensor data for your program to work correctly.";
-Blockly.Msg.ERROR_YELLOW_CLEAR_LEARN_MORE = "Learn More";
+Blockly.Msg.ERROR_YELLOW_SET_MOTOR_LEFT = "「〜で左モーターを〜設定にする」は左モーターを設定するだけです。左モーターを動かすには他のブロックを追加で接続してください。";
+Blockly.Msg.ERROR_YELLOW_SET_MOTOR_RIGHT = "「〜で右モーターを〜設定にする」は右モーターを設定するだけです。右モーターを動かすには他のブロックを追加で接続してください。";
+Blockly.Msg.ERROR_YELLOW_SET_MOTOR_BOTH = "「〜で両方のモーターを〜設定にする」は両方のモーターを設定するだけです。両方のモーターを動かすには他のブロックを追加で接続してください。";
+Blockly.Msg.ERROR_YELLOW_CLAP_EVENT_DRIVE = "拍手検出は、モーターが動いている間はモーターのノイズが大きいため動作しません。";
+Blockly.Msg.ERROR_YELLOW_FLOAT_BLOCKS = "「イベント」カテゴリや「ブロック定義」カテゴリのブロックに接続されていないブロックは実行されません。";
+Blockly.Msg.ERROR_YELLOW_WAIT_TIME_LIGHT = "「〜秒待つ」ブロックの内部の「〜で検出された光量」ブロックは、大きな値となる場合があるため、長時間待ち続ける動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_REPEAT_LOOP_LIGHT = "「〜回繰り返す」ブロックの内部の「〜で検出された光量」ブロックは、大きな値となる場合があるため、長時間繰り返し続ける動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN = "「動きの異常が検出された」ブロックは、モーターが動作している場合のみ動作します。";
+Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN_EVENT = "「動きの異常が検出されたとき」ブロックは、モーターが動作している場合のみ動作します。";
+Blockly.Msg.ERROR_YELLOW_COMMENT = "「コメント」カテゴリのブロックはメモを残すためのものであり、実行されません。";
+Blockly.Msg.ERROR_YELLOW_USB_USED = "「USB」ブロックの動作には、EdisonをデバイスにUSB接続する必要があります。";
+Blockly.Msg.ERROR_YELLOW_CLEAR_SENSOR = "いくつかのセンサデータはEdison内部のメモリに保持されます。必要に応じて、「〜のデータをクリアする」ブロックでセンサデータをクリアしてください。";
+Blockly.Msg.ERROR_YELLOW_CLEAR_LEARN_MORE = "詳細";
 
 
 

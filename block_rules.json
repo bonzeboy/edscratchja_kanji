@@ -5,22 +5,6 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/v3/blockly_compressed_vertical.js"
-            }
-        },
-        "condition": {
-            "urlFilter": "v3/blockly_compressed_vertical.js",
-            "resourceTypes": [
-                "script"
-            ]
-        }
-    },
-    {
-        "id": 2,
-        "priority": 1,
-        "action": {
-            "type": "redirect",
-            "redirect": {
                 "extensionPath": "/v3/blocks_compressed_vertical.js"
             }
         },
@@ -32,7 +16,7 @@
         }
     },
     {
-        "id": 3,
+        "id": 2,
         "priority": 1,
         "action": {
             "type": "redirect",

@@ -23,7 +23,6 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "v3/blockly_compressed_vertical.js",
         "v3/blocks_compressed_vertical.js",
         "v3/messages.js"
       ],
