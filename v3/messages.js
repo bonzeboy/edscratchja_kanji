@@ -336,24 +336,24 @@ Blockly.Msg.LED_SEND = "を送信する";
 
 
 //Demo messages
-Blockly.Msg.DEMO_TEST_PROGRAM = "Test program";
-Blockly.Msg.DEMO_TEST_PROGRAM_DISC = "Tests drive, LEDs and speaker";
-Blockly.Msg.DEMO_MOVE_WITH_MUSIC = "Move with music";
-Blockly.Msg.DEMO_MOVE_WITH_MUSIC_DISC = "Drive while playing music";
-Blockly.Msg.DEMO_FOLLOW_A_LINE = "Follow a line";
-Blockly.Msg.DEMO_FOLLOW_A_LINE_DISC = "Use the line sensor to follow a black line";
-Blockly.Msg.DEMO_BOUNCE_IN_BORDERS = "Bounce in borders";
-Blockly.Msg.DEMO_BOUNCE_IN_BORDERS_DISC = "Use the line sensor to stay inside a black line border";
-Blockly.Msg.DEMO_WARNINGS = "Warning messages demo";
-Blockly.Msg.DEMO_WARNINGS_DISC = "Demonstrates red error messages and yellow warning messages";
-Blockly.Msg.DEMO_CLAP_CONTROL = "Clap controlled driving";
-Blockly.Msg.DEMO_CLAP_CONTROL_DISC = "Clap once to turn, clap twice to drive forwards";
-Blockly.Msg.DEMO_AVOID_OBSTACLES = "Avoid obstacles";
-Blockly.Msg.DEMO_AVOID_OBSTACLES_DISC = "Use the obstacle sensor to avoid driving into obstacles";
-Blockly.Msg.DEMO_FOLLOW_TORCH = "Follow a torch";
-Blockly.Msg.DEMO_FOLLOW_TORCH_DISC = "Use the light sensors to follow a flash light";
-Blockly.Msg.DEMO_FOLLOW_A_LINE_IF = "Follow a line using if statements";
-Blockly.Msg.DEMO_FOLLOW_A_LINE_IF_DISC = "A different way to use the line sensor to follow a line using an ‘if’ block";
+Blockly.Msg.DEMO_TEST_PROGRAM = "テストプログラム";
+Blockly.Msg.DEMO_TEST_PROGRAM_DISC = "動きと光、音を使ってみる";
+Blockly.Msg.DEMO_MOVE_WITH_MUSIC = "音楽と共に動く";
+Blockly.Msg.DEMO_MOVE_WITH_MUSIC_DISC = "音を鳴らしながら前後左右に動く";
+Blockly.Msg.DEMO_FOLLOW_A_LINE = "ライントレース";
+Blockly.Msg.DEMO_FOLLOW_A_LINE_DISC = "ライン検出を使って黒い線の上を進む";
+Blockly.Msg.DEMO_BOUNCE_IN_BORDERS = "境界線で跳ね返る";
+Blockly.Msg.DEMO_BOUNCE_IN_BORDERS_DISC = "ライン検出を使って黒い境界線の内側を動く";
+Blockly.Msg.DEMO_WARNINGS = "エラー/警告メッセージ";
+Blockly.Msg.DEMO_WARNINGS_DISC = "赤いエラーメッセージと黄色い警告メッセージのデモ";
+Blockly.Msg.DEMO_CLAP_CONTROL = "拍手で運転する";
+Blockly.Msg.DEMO_CLAP_CONTROL_DISC = "手を1回叩くとすると右に進み、2回叩くと前に進む";
+Blockly.Msg.DEMO_AVOID_OBSTACLES = "障害物の回避";
+Blockly.Msg.DEMO_AVOID_OBSTACLES_DISC = "障害物検出を使って障害物を避けながら動く";
+Blockly.Msg.DEMO_FOLLOW_TORCH = "光を追いかける";
+Blockly.Msg.DEMO_FOLLOW_TORCH_DISC = "光センサを使って光に向かって動く";
+Blockly.Msg.DEMO_FOLLOW_A_LINE_IF = "「もし〜なら」でライントレース";
+Blockly.Msg.DEMO_FOLLOW_A_LINE_IF_DISC = "ライン検出と「もし〜なら」ブロックを使って黒い線の上を進む";
 
 
 Blockly.Msg.MENU_DROP_MENU = "メニュー"; //navMenuTop
