@@ -27,6 +27,12 @@
  * IMPORTANT:
  * All message strings must use single quotes for the scripts to work properly
  */
+
+/*
+ * This file has been modified by bonzeboy as follows
+ *  - Translation into Japanese
+ */
+
 'use strict';
 
 goog.provide('Blockly.Msg.en');

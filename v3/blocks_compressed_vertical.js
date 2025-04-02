@@ -20,6 +20,12 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 */
+
+/*
+ * This file has been modified by bonzeboy as follows
+ *  - Translation into Japanese
+ */
+
 Blockly.Colours={motion:{primary:"#4C97FF",secondary:"#4280D7",tertiary:"#3373CC"},drive:{primary:"#4C97FF",secondary:"#4280D7",tertiary:"#3373CC"},looks:{primary:"#9966FF",secondary:"#855CD6",tertiary:"#774DCB"},LEDs:{primary:"#9966FF",secondary:"#855CD6",tertiary:"#774DCB"},sounds:{primary:"#CF63CF",secondary:"#C94FC9",tertiary:"#BD42BD"},control:{primary:"#FFAB19",secondary:"#EC9C13",tertiary:"#CF8B17"},event:{primary:"#FFBF00",secondary:"#E6AC00",tertiary:"#CC9900"},sensing:{primary:"#5CB1D6",
 secondary:"#47A8D1",tertiary:"#2E8EB8"},pen:{primary:"#0fBD8C",secondary:"#0DA57A",tertiary:"#0B8E69"},advanced:{primary:"#bd0f40",secondary:"#a50d38",tertiary:"#8e0b30"},operators:{primary:"#59C059",secondary:"#46B946",tertiary:"#389438"},data:{primary:"#FF8C1A",secondary:"#FF8000",tertiary:"#DB6E00"},data_lists:{primary:"#FF661A",secondary:"#FF5500",tertiary:"#E64D00"},more:{primary:"#FF6680",secondary:"#FF4D6A",tertiary:"#FF3355"},comment:{primary:"#FF6680",secondary:"#FF4D6A",tertiary:"#FF3355"},
 functions:{primary:"#FF6E4F",secondary:"#FF5C39",tertiary:"#E65334"},text:"#575E75",workspace:"#F9F9F9",toolboxHover:"#4C97FF",toolboxSelected:"#e9eef2",toolboxText:"#575E75",toolbox:"#FFFFFF",flyout:"#F9F9F9",scrollbar:"#CECDCE",scrollbarHover:"#CECDCE",textField:"#FFFFFF",insertionMarker:"#000000",insertionMarkerOpacity:.2,dragShadowOpacity:.3,stackGlow:"#FFF200",stackGlowSize:4,stackGlowOpacity:1,replacementGlow:"#FFFFFF",replacementGlowSize:2,replacementGlowOpacity:1,colourPickerStroke:"#FFFFFF",
