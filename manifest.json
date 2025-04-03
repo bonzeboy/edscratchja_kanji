@@ -1,10 +1,10 @@
 {
-  "name": "EdScratch 日本語化",
+  "name": "EdScratch V3日本語化",
   "version": "1.0",
-  "description": "EdScratch V3を日本語化します。Scratchと相互に移行しやすいように、Scratchに近い翻訳になっています。",
+  "description": "EdScratch V3を日本語化するChrome拡張機能です。Scratchと相互に移行しやすいように、Scratchに近い翻訳になっています。",
   "manifest_version": 3,
   "icons": {
-    "128": "icon.png"
+    "128": "images/icon.png"
   },
   "declarative_net_request" : {
     "rule_resources" : [{
