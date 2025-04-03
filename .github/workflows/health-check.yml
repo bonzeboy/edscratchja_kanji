@@ -1,0 +1,21 @@
+name: Health Check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  diff-js-files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Download
+        run: |
+          mkdir tmp
+          wget -P tmp https://www.edscratchapp.com/v3/msg/messages.js
+          wget -P tmp https://www.edscratchapp.com/v3/blocks_compressed_vertical.js
+      - name: Diff
+        run: |
+          diff v3_org/messages.js tmp/messages.js
+          diff v3_org/blocks_compressed_vertical.js tmp/blocks_compressed_vertical.js
