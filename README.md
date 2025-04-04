@@ -1,10 +1,10 @@
-# EdScratchJA_kanji [![Health Check](https://github.com/bonzeboy/edscratchja_kanji/actions/workflows/health-check.yml/badge.svg)](https://github.com/bonzeboy/edscratchja_kanji/actions/workflows/health-check.yml) ![GitHub Release](https://img.shields.io/github/v/release/bonzeboy/edscratchja_kanji)
+# EdScratch JA_kanji [![Health Check](https://github.com/bonzeboy/edscratchja_kanji/actions/workflows/health-check.yml/badge.svg)](https://github.com/bonzeboy/edscratchja_kanji/actions/workflows/health-check.yml) ![GitHub Release](https://img.shields.io/github/v/release/bonzeboy/edscratchja_kanji)
 
 ![Screenshot](./images/screenshot.png)
 
 ## 概要
 
-[EdScratch V3](https://www.edscratchapp.com/v3/)を日本語化するChrome拡張機能です。\
+[EdScratch V3](https://www.edscratchapp.com/v3/)を日本語化するChrome拡張機能のリポジトリです。\
 Scratchと相互に移行しやすいように、Scratchに近い翻訳にしています。
 
 ## インストール方法
