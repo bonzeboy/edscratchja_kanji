@@ -12,10 +12,15 @@ jobs:
         uses: actions/checkout@v4.2.2
       - name: Download
         run: |
-          mkdir tmp
-          wget -P tmp https://www.edscratchapp.com/v3/msg/messages.js
-          wget -P tmp https://www.edscratchapp.com/v3/blocks_compressed_vertical.js
+          mkdir tmp_edblocks
+          wget -P tmp_edblocks https://www.edblocksapp.com/v3/msg/messages.js
+          wget -P tmp_edblocks https://www.edblocksapp.com/v3/blocks_compressed_horizontal.js
+          mkdir tmp_edscratch
+          wget -P tmp_edscratch https://www.edscratchapp.com/v3/msg/messages.js
+          wget -P tmp_edscratch https://www.edscratchapp.com/v3/blocks_compressed_vertical.js
       - name: Diff
         run: |
-          diff v3_org/messages.js tmp/messages.js
-          diff v3_org/blocks_compressed_vertical.js tmp/blocks_compressed_vertical.js
+          diff edblocks/v3_org/messages.js tmp_edblocks/messages.js
+          diff edblocks/v3_org/blocks_compressed_horizontal.js tmp_edblocks/blocks_compressed_horizontal.js
+          diff edscratch/v3_org/messages.js tmp_edscratch/messages.js
+          diff edscratch/v3_org/blocks_compressed_vertical.js tmp_edscratch/blocks_compressed_vertical.js
