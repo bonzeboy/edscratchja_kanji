@@ -5,11 +5,11 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/v3/blocks_compressed_vertical.js"
+                "extensionPath": "/edblocks/v3/blocks_compressed_horizontal.js"
             }
         },
         "condition": {
-            "urlFilter": "v3/blocks_compressed_vertical.js",
+            "urlFilter": ".edblocksapp.com/v3/blocks_compressed_horizontal.js",
             "resourceTypes": [
                 "script"
             ]
@@ -21,11 +21,43 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/v3/messages.js"
+                "extensionPath": "/edblocks/v3/messages.js"
             }
         },
         "condition": {
-            "urlFilter": "v3/msg/messages.js",
+            "urlFilter": ".edblocksapp.com/v3/msg/messages.js",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "extensionPath": "/edscratch/v3/blocks_compressed_vertical.js"
+            }
+        },
+        "condition": {
+            "urlFilter": ".edscratchapp.com/v3/blocks_compressed_vertical.js",
+            "resourceTypes": [
+                "script"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "extensionPath": "/edscratch/v3/messages.js"
+            }
+        },
+        "condition": {
+            "urlFilter": ".edscratchapp.com/v3/msg/messages.js",
             "resourceTypes": [
                 "script"
             ]

@@ -97,19 +97,19 @@ Blockly.Msg.DATA_INDEX_LAST = 'last';
 Blockly.Msg.DATA_INDEX_RANDOM = 'random';
 
 // Event blocks
-Blockly.Msg.EVENT_ANY_OBSTACLE = '何か障害物が検出されたとき';
-Blockly.Msg.EVENT_OBSTACLE_AHEAD = '前に障害物が検出されたとき';
-Blockly.Msg.EVENT_OBSTACLE_LEFT = '左に障害物が検出されたとき';
-Blockly.Msg.EVENT_OBSTACLE_RIGHT = '右に障害物が検出されたとき';
-Blockly.Msg.EVENT_CLAP = '拍手が検出されたとき';
+Blockly.Msg.EVENT_ANY_OBSTACLE = '何か障害物を検出したとき';
+Blockly.Msg.EVENT_OBSTACLE_AHEAD = '前に障害物を検出したとき';
+Blockly.Msg.EVENT_OBSTACLE_LEFT = '左に障害物を検出したとき';
+Blockly.Msg.EVENT_OBSTACLE_RIGHT = '右に障害物を検出したとき';
+Blockly.Msg.EVENT_CLAP = '拍手を検出したとき';
 Blockly.Msg.EVENT_BUTTON_TRIANGLE = '▲三角ボタンが押されたとき';
 Blockly.Msg.EVENT_BUTTON_ROUND = '●丸ボタンが押されたとき';
-Blockly.Msg.EVENT_LINE_REFLECTIVE = 'ライン検出で反射面が検出されたとき';
-Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'ライン検出で非反射面が検出されたとき';
+Blockly.Msg.EVENT_LINE_REFLECTIVE = 'ライン検出で反射面を検出したとき';
+Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'ライン検出で非反射面を検出したとき';
 Blockly.Msg.EVENT_LINE_CHANGE = 'ライン検出の検出状態が変化したとき';
 Blockly.Msg.EVENT_MESSAGE = '赤外線メッセージを受信したとき';
 Blockly.Msg.EVENT_REMOTE = 'リモコンコードを受信したとき';
-Blockly.Msg.EVENT_DRIVE_STRAIN = '動きの異常が検出されたとき';
+Blockly.Msg.EVENT_DRIVE_STRAIN = '動きの異常を検出したとき';
 Blockly.Msg.EVENT_START = 'スタート';
 
 
@@ -151,19 +151,19 @@ Blockly.Msg.SENSING_TURN_SET = 'にする';
 Blockly.Msg.SENSING_TURN_OBSTACLE_BEAM = '障害物検出を';
 Blockly.Msg.SENSING_SENSOR = 'のデータを';
 Blockly.Msg.SENSING_CLEAR = 'クリアする';
-Blockly.Msg.SENSING_CLAP_DETECTED = '拍手が検出された';
+Blockly.Msg.SENSING_CLAP_DETECTED = '拍手を検出した';
 Blockly.Msg.SENSING_BUTTON_PRESSED = 'が押された';
-Blockly.Msg.SENSING_OBSTACLE = '障害物が検出された';
+Blockly.Msg.SENSING_OBSTACLE = '障害物を検出した';
 Blockly.Msg.SENSING_LINE_TRACKER = 'ライン検出で';
-Blockly.Msg.SENSING_LINE_SURFACE = "が検出された";
+Blockly.Msg.SENSING_LINE_SURFACE = "を検出した";
 Blockly.Msg.SENSING_REMOTE_NUM = '受信したリモコンコード';
 Blockly.Msg.SENSING_REMOTE_BOOL = 'リモコンコード';
 Blockly.Msg.SENSING_REMOTE_RECEIVED = 'を受信した';
 Blockly.Msg.SENSING_IR_MESSAGE_DETECTED = '赤外線メッセージを受信した';
 Blockly.Msg.SENSING_IR_MESSAGE = '受信した赤外線メッセージ';
 Blockly.Msg.SENSING_LIGHT_LEVEL = '';
-Blockly.Msg.SENSING_LIGHT_SENSOR = 'で検出された光量';
-Blockly.Msg.SENSING_DRIVE_STRAIN = '動きの異常が検出された';
+Blockly.Msg.SENSING_LIGHT_SENSOR = 'で検出した光量';
+Blockly.Msg.SENSING_DRIVE_STRAIN = '動きの異常を検出した';
 
 Blockly.Msg.SENSING_DROPDOWN_ON = "ON";
 Blockly.Msg.SENSING_DROPDOWN_OFF = "OFF";
@@ -220,12 +220,12 @@ Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_SHARP = "シャープ";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_FLAT = "フラット";
 
 Blockly.Msg.SOUND_SET_TEMPO = "テンポを";
-Blockly.Msg.SOUND_SET_TEMPO_TO = "にする";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "とても遅い";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "遅い";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "中くらい";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "速い";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "とても速い";
+Blockly.Msg.SOUND_SET_TEMPO_TO = "する";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "とても遅く";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "遅く";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "中くらいに";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "速く";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "とても速く";
 
 Blockly.Msg.SOUND_PLAY_IN_BACKGROUND = "バックグラウンドで音を鳴らす";
 
@@ -343,23 +343,23 @@ Blockly.Msg.LED_SEND = "を送信する";
 
 //Demo messages
 Blockly.Msg.DEMO_TEST_PROGRAM = "テストプログラム";
-Blockly.Msg.DEMO_TEST_PROGRAM_DISC = "動きと光、音を使ってみる";
+Blockly.Msg.DEMO_TEST_PROGRAM_DISC = "動きと光、音を使ってみる。";
 Blockly.Msg.DEMO_MOVE_WITH_MUSIC = "音楽と共に動く";
-Blockly.Msg.DEMO_MOVE_WITH_MUSIC_DISC = "音を鳴らしながら前後左右に動く";
+Blockly.Msg.DEMO_MOVE_WITH_MUSIC_DISC = "音を鳴らしながら前後左右に動く。";
 Blockly.Msg.DEMO_FOLLOW_A_LINE = "ライントレース";
-Blockly.Msg.DEMO_FOLLOW_A_LINE_DISC = "ライン検出を使って黒い線の上を進む";
+Blockly.Msg.DEMO_FOLLOW_A_LINE_DISC = "ライン検出を使って黒い線の上を進む。";
 Blockly.Msg.DEMO_BOUNCE_IN_BORDERS = "境界線で跳ね返る";
-Blockly.Msg.DEMO_BOUNCE_IN_BORDERS_DISC = "ライン検出を使って黒い境界線の内側を動く";
+Blockly.Msg.DEMO_BOUNCE_IN_BORDERS_DISC = "ライン検出を使って黒い境界線の内側を動く。";
 Blockly.Msg.DEMO_WARNINGS = "エラー/警告メッセージ";
-Blockly.Msg.DEMO_WARNINGS_DISC = "赤いエラーメッセージと黄色い警告メッセージのデモ";
+Blockly.Msg.DEMO_WARNINGS_DISC = "赤いエラーメッセージと黄色い警告メッセージを表示させる。";
 Blockly.Msg.DEMO_CLAP_CONTROL = "拍手で運転する";
-Blockly.Msg.DEMO_CLAP_CONTROL_DISC = "手を1回叩くとすると右に進み、2回叩くと前に進む";
+Blockly.Msg.DEMO_CLAP_CONTROL_DISC = "手を1回叩くとすると右に進み、2回叩くと前に進む。";
 Blockly.Msg.DEMO_AVOID_OBSTACLES = "障害物の回避";
-Blockly.Msg.DEMO_AVOID_OBSTACLES_DISC = "障害物検出を使って障害物を避けながら動く";
+Blockly.Msg.DEMO_AVOID_OBSTACLES_DISC = "障害物検出を使って障害物を避けながら動く。";
 Blockly.Msg.DEMO_FOLLOW_TORCH = "光を追いかける";
-Blockly.Msg.DEMO_FOLLOW_TORCH_DISC = "光センサを使って光に向かって動く";
+Blockly.Msg.DEMO_FOLLOW_TORCH_DISC = "光センサを使って光に向かって動く。";
 Blockly.Msg.DEMO_FOLLOW_A_LINE_IF = "「もし〜なら」でライントレース";
-Blockly.Msg.DEMO_FOLLOW_A_LINE_IF_DISC = "ライン検出と「もし〜なら」ブロックを使って黒い線の上を進む";
+Blockly.Msg.DEMO_FOLLOW_A_LINE_IF_DISC = "ライン検出と「もし〜なら」ブロックを使って黒い線の上を進む。";
 
 
 Blockly.Msg.MENU_DROP_MENU = "メニュー"; //navMenuTop
@@ -374,13 +374,13 @@ Blockly.Msg.MENU_DROP_TERMS = "利用規約"; //navPopTerms
 
 
 Blockly.Msg.MENU_USB = "USB"; //navPopUSB
-Blockly.Msg.MENU_SAVE = " 保存"; //navPopLoadSaveAlt
+Blockly.Msg.MENU_SAVE = "保存"; //navPopLoadSaveAlt
 
-Blockly.Msg.MENU_VERSION_MAIN = " Edison V3"; //navVersionTop
+Blockly.Msg.MENU_VERSION_MAIN = "Edison V3"; //navVersionTop
 Blockly.Msg.MENU_VERSION_SWITCH = "Edison V1/V2に切り替える"; //navVersionSwitch
 Blockly.Msg.MENU_VERSION_WHICH_VERSION = "自分のEdisonのバージョンを確認する"; //navVersionHelp
-Blockly.Msg.MENU_PROGRAM = " プログラムを書き込む"; //navProgram
-Blockly.Msg.MENU_PROGRAM_FLASH = " プログラムを書き込む"; //navProgramFlash
+Blockly.Msg.MENU_PROGRAM = "プログラムを書き込む"; //navProgram
+Blockly.Msg.MENU_PROGRAM_FLASH = "プログラムを書き込む"; //navProgramFlash
 
 
 Blockly.Msg.MODAL_CREATE_VAR = "新しい変数"; //divCreateVarsTitle
@@ -664,7 +664,7 @@ Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_BACK_DIST = "「〜後ろに戻る」�
 Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_LEFT_DIST = "「〜左に」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
 Blockly.Msg.ERROR_YELLOW_OPPERATOR_DRIVE_RIGHT_DIST = "「〜右に」ブロックの内部の「演算」カテゴリのブロックは、全く動かない動作を引き起こす可能性があります。";
 
-Blockly.Msg.ERROR_YELLOW_DRIVE_LIGHT = "「動き」カテゴリのブロックの内部の「〜で検出された光量」ブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_DRIVE_LIGHT = "「動き」カテゴリのブロックの内部の「〜で検出した光量」ブロックは、動き続けたり、全く動かない動作を引き起こす可能性があります。";
 Blockly.Msg.ERROR_YELLOW_OPPERATOR_IR_MESSAGE = "「赤外線メッセージ〜を送信する」ブロックの内部の「演算」カテゴリのブロックの255よりも大きい値は、送信されません。";
 Blockly.Msg.ERROR_YELLOW_FOREVER_LOOP_IN = "A 'forever' loop will continue looping until you press the square button on Edison.";
 Blockly.Msg.ERROR_YELLOW_SET_MOTOR_LEFT = "「〜で左モーターを〜設定にする」は左モーターの回転方向を設定するだけです。動かすためには他のブロックを追加で接続してください。";
@@ -672,10 +672,10 @@ Blockly.Msg.ERROR_YELLOW_SET_MOTOR_RIGHT = "「〜で右モーターを〜設定
 Blockly.Msg.ERROR_YELLOW_SET_MOTOR_BOTH = "「〜で両方のモーターを〜設定にする」は両方のモーターの回転方向を設定するだけです。動かすためには他のブロックを追加で接続してください。";
 Blockly.Msg.ERROR_YELLOW_CLAP_EVENT_DRIVE = "拍手検出は、モーターが動いている間はモーターのノイズが大きいため動作しません。";
 Blockly.Msg.ERROR_YELLOW_FLOAT_BLOCKS = "「イベント」カテゴリや「ブロック定義」カテゴリのブロックに接続されていないブロックは実行されません。";
-Blockly.Msg.ERROR_YELLOW_WAIT_TIME_LIGHT = "「〜秒待つ」ブロックの内部の「〜で検出された光量」ブロックは、大きな値となる場合があるため、長時間待ち続ける動作を引き起こす可能性があります。";
-Blockly.Msg.ERROR_YELLOW_REPEAT_LOOP_LIGHT = "「〜回繰り返す」ブロックの内部の「〜で検出された光量」ブロックは、大きな値となる場合があるため、長時間繰り返し続ける動作を引き起こす可能性があります。";
-Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN = "「動きの異常が検出された」ブロックは、モーターが動作している場合のみ動作します。";
-Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN_EVENT = "「動きの異常が検出されたとき」ブロックは、モーターが動作している場合のみ動作します。";
+Blockly.Msg.ERROR_YELLOW_WAIT_TIME_LIGHT = "「〜秒待つ」ブロックの内部の「〜で検出した光量」ブロックは、大きな値となる場合があるため、長時間待ち続ける動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_REPEAT_LOOP_LIGHT = "「〜回繰り返す」ブロックの内部の「〜で検出した光量」ブロックは、大きな値となる場合があるため、長時間繰り返し続ける動作を引き起こす可能性があります。";
+Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN = "「動きの異常を検出した」ブロックは、モーターが動作している場合のみ動作します。";
+Blockly.Msg.ERROR_YELLOW_DRIVE_STRAIN_EVENT = "「動きの異常を検出したとき」ブロックは、モーターが動作している場合のみ動作します。";
 Blockly.Msg.ERROR_YELLOW_COMMENT = "「コメント」カテゴリのブロックはメモを残すためのものであり、実行されません。";
 Blockly.Msg.ERROR_YELLOW_USB_USED = "「USB」ブロックの動作には、EdisonをデバイスにUSB接続する必要があります。";
 Blockly.Msg.ERROR_YELLOW_CLEAR_SENSOR = "いくつかのセンサデータはEdison内部のメモリに保持されます。必要に応じて、「〜のデータをクリアする」ブロックでセンサデータをクリアしてください。";
